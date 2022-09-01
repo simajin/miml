@@ -1,0 +1,48 @@
+#cartWrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 12.7%;
+}
+#cartWrap h2 {
+    font-size: 52px;
+    margin-bottom: 2%;
+    color: #333D51;
+}
+
+#cartContents {
+    width: 100%;
+}
+
+/* 테이블 */
+#cartContents table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+#cartContents table tr th {
+    border-bottom: 2px solid #333D51;
+    border-top: 2px solid #333D51;
+    padding: 1.5% 0;
+}
+#cartContents table tr td {
+    border-bottom: 1px solid #333D51;
+    padding: 1.5% 0;
+}
+
+#cartContents #cartBtn {
+    width: 86%;
+    margin-top: 1.5%;
+    text-align: right;
+}
+#cartContents #cartBtn button {
+    width: 9%;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #333D51;
+    margin-right: 1%;
+}

@@ -1,0 +1,56 @@
+#joinWrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 9.5%;
+}
+#joinWrap h2 {
+    font-size: 52px;
+    margin-bottom: 1%;
+    color: #333D51;
+}
+
+#joinContents {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#joinContents table {
+    width: 60%;
+    margin: 0 auto;
+}
+#joinContents table tr td:nth-child(1) {
+    width: 20%;
+    text-align: center;
+}
+#joinContents table tr td:nth-child(2) {
+    width: 80%;
+}
+#joinContents table tr td input {
+    width: 90%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #ddd;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#joinContents table #joinBtn {
+    width: 100%;
+    text-align: center;
+}
+#joinContents table button {
+    width: 10%;
+    height: 32px;
+    border: none;
+    outline: none;
+    background: #333D51;
+    color: #fff;
+    margin-right: 1%;
+    border-radius: 20px;
+}
+

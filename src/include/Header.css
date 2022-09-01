@@ -1,0 +1,58 @@
+#header {
+    width: 95%;
+    height: 13%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header img {
+    vertical-align: middle;
+}
+
+/* 로고 */
+#logo {
+    width: 10%;
+}
+#logo img {
+    width: 90%;
+}
+
+/* 메뉴  */
+#menu {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu li {
+    width: 15%;
+}
+#menu img {
+    width: 65%;
+}
+
+/* 메뉴화면 나오게 */
+#menuPage {
+    width: 23%;
+    height: 100%;
+    background: #333D51;
+    position: fixed;
+    top: 0;
+    right: -50%;
+    z-index: 10;
+    color: #fff;
+    font-size: 56px;
+    opacity: 0.95;
+}
+#menuPage ul {
+    padding-left: 10%;
+    padding-top: 20%;
+}
+#menuPage ul li:nth-child(1) {
+    padding-bottom: 15%;
+}
+#menuPage img {
+    padding-left: 80%;
+    padding-top: 10%;
+}

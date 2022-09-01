@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Fredoka+One&family=Jua&display=swap');
+
+#cdWrap {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+#cdCategory {
+    width: 10%;
+    padding: 0 5%;
+    margin-top: 8%;
+}
+#cdCategory ul li {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-family: 'Capriola', sans-serif;
+    color: #333;
+}
+
+#cdContents {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+#cdContents h2 {
+    font-size: 46px;
+    padding-bottom: 7%;
+    font-family: 'Capriola', sans-serif;
+    color: #333;
+}
+#cdContents ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#cdContents ul li {
+    width: 18%;
+    margin-bottom: 3%;
+    /* text-align: left; */
+}
+#cdContents ul li:not(:nth-child(5n)) {
+    margin-right: 2%;
+}
+#cdContents ul li img {
+    width: 100%;
+    border-radius: 15px;
+    padding-bottom: 2%;
+}
+#cdContents ul li p:nth-child(3) {
+    font-size: 17px;
+    font-weight: bold;
+    color: #e92a2a;
+}
+#cdContents ul li p span {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #aaa;
+    font-weight: lighter;
+}
+#cdContents ul li p {
+    margin-bottom: 1%;
+}
+/* 그레이호버 */
+/* #cdContents ul li:hover img {
+    -webkit-filter: grayscale(100%) blur(0.5px);
+    filter: grayscale(100%) blur(0.5px);
+} */

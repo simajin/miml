@@ -1,0 +1,72 @@
+#loginWrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 11.5%;
+}
+#loginWrap h2 {
+    font-size: 52px;
+    margin-bottom: 2%;
+    color: #333D51;
+}
+
+#loginContents {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#loginContents input {
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 0.5%;
+    padding-left: 1%;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: #ddd;
+}
+#loginContents ul {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+}
+#loginContents ul li:nth-child(2) {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    padding: 0 7%;
+}
+#loginContents #naver {
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #2DB400;
+    border-radius: 15px;
+    color: #fff;
+    line-height: 50px;
+    margin-bottom: 0.5%;
+}
+#loginContents #kakao {
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #f9e000;
+    border-radius: 15px;
+    line-height: 50px;
+    margin-bottom: 0.5%;
+}
+#loginContents #faceBook {
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #3b5998;
+    color: #fff;
+    border-radius: 15px;
+    line-height: 50px;
+}

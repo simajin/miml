@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Fredoka+One&family=Jua&display=swap');
+
+#artistWrap {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+#artistCategory {
+    width: 10%;
+    padding: 0 5%;
+    margin-top: 8%;
+}
+#artistCategory ul li {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-family: 'Capriola', sans-serif;
+    color: #333;
+}
+
+#artistContents {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+#artistContents h2 {
+    font-size: 46px;
+    padding-bottom: 7%;
+    font-family: 'Capriola', sans-serif;
+    color: #333;
+}
+#artistContents ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#artistContents ul li {
+    width: 18%;
+    margin-bottom: 3%;
+}
+#artistContents ul li:not(:nth-child(5n)) {
+    margin-right: 2%;
+}
+#artistContents ul li img {
+    width: 100%;
+    border-radius: 15px;
+    padding-bottom: 2%;
+}
