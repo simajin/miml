@@ -37,7 +37,7 @@
     outline: none;
     background: #ddd;
     padding-left: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 #joinContents table #joinBtn {
     width: 100%;
@@ -51,6 +51,5 @@
     background: #333D51;
     color: #fff;
     margin-right: 1%;
-    border-radius: 20px;
 }
 

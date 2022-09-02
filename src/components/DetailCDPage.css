@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Fredoka+One&family=Jua&display=swap');
+
+#detailWrap {
+    width: 65%;
+    margin: 0 auto;
+}
+#detailCd {
+    display: flex;
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    padding-bottom: 4%;
+}
+
+#detailCd #cdImg {
+    width: 40%;
+}
+#detailCd #cdImg img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#detailCd #cdText {
+    width: 45%;
+    padding-left: 10%;
+    padding-top: 3%;
+    font-size: 14px;
+}
+#detailCd #cdText h3 {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 15%;
+}
+#detailCd #cdText p {
+    padding-bottom: 3%;
+}
+#detailCd #cdText p span {
+    font-size: 24px;
+    color: red;
+}
+#detailCd #cdText p input {
+    width: 15%;
+    height: 30px;
+    outline: none;
+}
+#detailCd #cdBtn {
+    width: 100%;
+}
+#detailCd #cdBtn button {
+    width: 30%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #333D51;
+    color: #fff;
+    margin-right: 3%;
+    margin-top: 10%;
+}
+
+#detailBox {
+    width: 100%;
+    background: #eee;
+    height: 70px;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 1.2%;
+    font-family: 'Capriola', sans-serif;
+    margin: 5% 0;
+    border-radius: 5px;
+}
+
+#detailImg {
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+#detailImg img {
+    width: 100%;
+}

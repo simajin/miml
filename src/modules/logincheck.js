@@ -19,13 +19,8 @@ export const setLogout = () => {
     }
 }
 
-// 홈으로 이동 함수
-export const goToHome = (navigate) => () => {
-    navigate('/')
-}
-
 // 리듀서 만들기
-export default function cookie(state = initialState, action) {
+export default function logincheck(state = initialState, action) {
     switch(action.type) {
         case SET_LOGIN:
             return {

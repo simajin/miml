@@ -24,9 +24,9 @@ const MD = () => {
                 <ul>
                     <li>KEYRING</li>
                     <li>BOOK</li>
-                    <li>LIGHTSTICK</li>
+                    {/* <li>LIGHTSTICK</li>
                     <li>TEESHIRT</li>
-                    <li>SLOGAN</li>
+                    <li>SLOGAN</li> */}
                     <li>PACKAGE</li>
                 </ul>
             </div>

@@ -42,15 +42,19 @@
     right: -50%;
     z-index: 10;
     color: #fff;
-    font-size: 56px;
+    font-size: 46px;
     opacity: 0.95;
+    font-family: 'Capriola', sans-serif;
 }
 #menuPage ul {
     padding-left: 10%;
-    padding-top: 20%;
+    padding-top: 25%;
 }
 #menuPage ul li:nth-child(1) {
-    padding-bottom: 15%;
+    padding-bottom: 20%;
+}
+#menuPage ul li {
+    padding-bottom: 2%;
 }
 #menuPage img {
     padding-left: 80%;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Fredoka+One&family=Jua&display=swap');
+
 #mainContents {
     width: 100%;
     padding-top: 3%;
@@ -30,6 +32,7 @@
     font-size: 32px;
     font-weight: 500;
     padding-bottom: 0.5%;
+    font-family: 'Capriola', sans-serif;
 }
 #hotMusic p {
     padding-bottom: 2%;
@@ -50,8 +53,8 @@
     padding-bottom: 2%;
 }
 
-/* 베스트 아이템 */
-#bestItem {
+/* 베스트 앨범 */
+#bestElbum {
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -59,41 +62,86 @@
     font-size: 14px;
     margin-bottom: 10%;
 }
-#bestItem h3 {
+#bestElbum h3 {
     font-size: 32px;
     font-weight: 500;
     padding-bottom: 0.5%;
+    font-family: 'Capriola', sans-serif;
 }
-#bestItem p {
+#bestElbum p {
     padding-bottom: 2%;
 }
-#bestItem ul {
+#bestElbum ul {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-#bestItem ul li {
+#bestElbum ul li {
     width: 16%;
 }
-#bestItem ul li img {
+#bestElbum ul li img {
     width: 100%;
     border-radius: 15px;
     padding-bottom: 2%;
 }
-#bestItem ul li p:nth-child(3) {
+#bestElbum ul li p:nth-child(3) {
     font-size: 17px;
     font-weight: bold;
     color: #e92a2a;
 }
-#bestItem ul li p span {
+#bestElbum ul li p span {
     text-decoration: line-through;
     font-size: 14px;
     color: #aaa;
     font-weight: lighter;
 }
 
+/* 새로운 MD */
+#newMd {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #333D51;
+    font-size: 14px;
+    margin-bottom: 10%;
+}
+#newMd h3 {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 0.5%;
+    font-family: 'Capriola', sans-serif;
+}
+#newMd p {
+    padding-bottom: 2%;
+}
+#newMd ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#newMd ul li {
+    width: 16%;
+}
+#newMd ul li img {
+    width: 100%;
+    border-radius: 15px;
+    padding-bottom: 2%;
+}
+#newMd ul li p:nth-child(3) {
+    font-size: 17px;
+    font-weight: bold;
+    color: #e92a2a;
+}
+#newMd ul li p span {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #aaa;
+    font-weight: lighter;
+}
 
 /* 움직이는 텍스트 */
 #moveText h1 {

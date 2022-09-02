@@ -58,7 +58,6 @@ const Mainpage = () => {
                     <span>W</span>
                     <span>E</span>
                     <span>L</span>
-                    <span>L</span>
                     <span>C</span>
                     <span>O</span>
                     <span>M</span>
@@ -95,8 +94,8 @@ const Mainpage = () => {
                     </li>
                 </ul>
             </div>
-            <div id='bestItem'>
-            <h3>BEST ITEM</h3>
+            <div id='bestElbum'>
+            <h3>BEST ELBUM</h3>
                 <p>베스트픽 !</p>
                 <ul>
                     <li>
@@ -128,6 +127,42 @@ const Mainpage = () => {
                         <img src='images/elbum6.png' alt='' />
                         <p>에스파 - 미니2집 Girls</p>
                         <p><span>24,900원</span> → 20,800원</p>
+                    </li>
+                </ul>
+            </div>
+            <div id='newMd'>
+            <h3>NEW MD</h3>
+                <p>새로운 MD를 만나보세요!</p>
+                <ul>
+                    <li>
+                        <img src='images/md.png' alt='' />
+                        <p>에이티즈 공식 응원봉</p>
+                        <p><span>33,000원</span> → 33,000원</p>
+                    </li>
+                    <li>
+                        <img src='images/md2.png' alt='' />
+                        <p>슈퍼주니어 미니 응원봉 키링</p>
+                        <p><span>18,000원</span> → 18,000원</p>
+                    </li>
+                    <li>
+                        <img src='images/md3.png' alt='' />
+                        <p>엑소 미니 응원봉 키링</p>
+                        <p><span>21,400원</span> → 16,500원</p>
+                    </li>
+                    <li>
+                        <img src='images/md4.png' alt='' />
+                        <p>드림캐쳐 T-SHIRT (PINK)</p>
+                        <p><span>54,200원</span> → 38,000원</p>
+                    </li>
+                    <li>
+                        <img src='images/md5.png' alt='' />
+                        <p>드림캐쳐 SLOGAN (PINK)</p>
+                        <p><span>25,700원</span> → 18,000원</p>
+                    </li>
+                    <li>
+                        <img src='images/md6.png' alt='' />
+                        <p>(EXO)세훈 포토 프로젝션 키링</p>
+                        <p><span>15,000원</span> → 15,000원</p>
                     </li>
                 </ul>
             </div>
