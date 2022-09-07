@@ -1,5 +1,6 @@
 import React from 'react';
 import './DetailCDPage.css';
+import { Link } from 'react-router-dom';
 
 const DetailCDPage = () => {
     return (
@@ -17,7 +18,7 @@ const DetailCDPage = () => {
                     <p>평점 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100자평(54) &nbsp;&nbsp; 리뷰(12) &nbsp;&nbsp; ★★★★★ 9.5</p>
                     <p>수량 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type='number' /></p>
                     <div id='cdBtn'>
-                        <button>CART</button>
+                        <Link to="/cart"><button>CART</button></Link>
                         <button>BUY</button>
                     </div>
                 </div>

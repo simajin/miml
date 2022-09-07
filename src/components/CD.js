@@ -26,18 +26,21 @@ const CD = () => {
                     <li>DVD</li>
                     <li>OST</li>
                 </ul>
+                <Link to="/uploadElbum"><button>글 작성</button></Link>
             </div>
             <div id='cdContents'>
                 <h2>CD & DVD</h2>
                 <ul>
                     {elbum.map(elbum=>(
                         <li>
-                            <Link to={`/elbum/${elbum.id}`}>
-                                <img src={elbum.imgsrc} alt='' />
-                            </Link>
-                            <p>{elbum.artistname} - {elbum.elbumname}</p>
-                            <p><span>{elbum.price}</span> → {elbum.reducedprice}</p>
-                            <p>발매일 :  {elbum.elbumdate}</p>
+                            {/* <Link to={`/elbum/${elbum.id}`}> */}
+                                <Link to='/DetailCDPage'>
+                                    <img src={elbum.imgsrc} alt='' />
+                                </Link>
+                                <p>{elbum.artistname} - {elbum.elbumname}</p>
+                                <p><span>{elbum.price.toLocaleString('ko-KR')}원</span> → {elbum.saleprice.toLocaleString('ko-KR')}원</p>
+                                <p>발매일 :  {elbum.elbumdate}</p>
+                            {/* </Link> */}
                         </li>
                     ))}
                 </ul>

@@ -11,6 +11,7 @@ import MD from './components/MD';
 import Artist from './components/Artist';
 import Music from './components/Music';
 import DetailCDPage from './components/DetailCDPage';
+import UploadElbum from './components/UploadElbum';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/MDpage' element={<MD/>} />
           <Route path='/artistPage' element={<Artist/>} />
           <Route path='/DetailCDPage' element={<DetailCDPage/>} />
+          <Route path='/uploadElbum' element={<UploadElbum/>} />
         </Routes>
       <Footer/>
     </div>

@@ -30,11 +30,11 @@ const Join = () => {
         // form에 원래 연결된 이벤트를 제거
         e.preventDefault();
         // 전화번호가 숫자인지 체크
-        if(isNaN(FormData.userphone)) {
+        if(isNaN(Number(FormData.userphone))) {
             alert("전화번호는 숫자만 입력해주세요");
         }
         // input에 값이 있는지 체크하고 입력이 되어있으면 post 전송
-        if(FormData.userid !== "" && FormData.username &&
+        else if(FormData.userid !== "" && FormData.username &&
         FormData.userpass !== "" && FormData.userpassch !== "" && 
         FormData.userphone !== "" && FormData.useremail !== "" && FormData.useraddr) {
             addMember();

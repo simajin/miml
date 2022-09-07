@@ -1,0 +1,135 @@
+#uploadWrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#uploadWrap h2 {
+    font-size: 52px;
+    margin-bottom: 1%;
+    color: #333D51;
+}
+
+#uploadContents {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#uploadContents table {
+    width: 60%;
+    margin: 0 auto;
+}
+#uploadContents table tr td {
+    border: none;
+}
+#uploadContents table tr td:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+#uploadContents table tr td:nth-child(2) {
+    width: 80%;
+}
+#uploadContents table tr td input {
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    background: #ddd;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#uploadContents table tr td select {
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    background: #ddd;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#uploadContents table #joinBtn {
+    width: 100%;
+    text-align: center;
+}
+#uploadContents table button {
+    width: 10%;
+    height: 32px;
+    border: none;
+    outline: none;
+    background: #333D51;
+    color: #fff;
+    margin-right: 1%;
+}
+
+
+/* #uploadWrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+#uploadWrap h2 {
+    font-size: 52px;
+    margin-bottom: 2%;
+    color: #333D51;
+}
+
+#uploadContents {
+    width: 60%;
+    margin: 0 auto;
+}
+#uploadContents ul {
+    text-align: center;
+    font-size: 14px;
+}
+#uploadContents ul li {
+    margin-bottom: 2%;
+}
+#uploadContents ul li label {
+    width: 30%;
+}
+#uploadContents ul li input {
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #333D51;
+    background: #ddd;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+#uploadContents ul li select {
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #333D51;
+    background: #ddd;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+#uploadContents ul #uploadBtn {
+    width: 100%;
+    text-align: center;
+}
+#uploadContents ul #uploadBtn button {
+    width: 10%;
+    height: 32px;
+    border: none;
+    outline: none;
+    background: #333D51;
+    color: #fff;
+    margin-right: 1%;
+    margin-top: 2%;
+} */

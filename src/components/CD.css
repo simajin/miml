@@ -21,6 +21,16 @@
     font-family: 'Capriola', sans-serif;
     color: #333;
 }
+#cdCategory button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #333d51;
+    border-radius: 20px;
+    margin-top: 50px;
+}
 
 #cdContents {
     width: 90%;
@@ -66,8 +76,3 @@
 #cdContents ul li p {
     margin-bottom: 1%;
 }
-/* 그레이호버 */
-/* #cdContents ul li:hover img {
-    -webkit-filter: grayscale(100%) blur(0.5px);
-    filter: grayscale(100%) blur(0.5px);
-} */

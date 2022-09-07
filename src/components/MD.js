@@ -24,9 +24,9 @@ const MD = () => {
                 <ul>
                     <li>KEYRING</li>
                     <li>BOOK</li>
-                    {/* <li>LIGHTSTICK</li>
+                    <li>LIGHTSTICK</li>
                     <li>TEESHIRT</li>
-                    <li>SLOGAN</li> */}
+                    <li>SLOGAN</li>
                     <li>PACKAGE</li>
                 </ul>
             </div>
@@ -39,7 +39,7 @@ const MD = () => {
                                 <img src={md.imgsrc} alt='' />
                             </Link>
                             <p>{md.artistname} {md.mdname}</p>
-                            <p><span>{md.price}</span> → {md.reducedprice} </p>
+                            <p><span>{md.price.toLocaleString('ko-KR')}원</span> → {md.saleprice.toLocaleString('ko-KR')}원</p>
                         </li>
                     ))}
                 </ul>
